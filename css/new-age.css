@@ -112,7 +112,7 @@ section h2 {
   color: #49fb35;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
