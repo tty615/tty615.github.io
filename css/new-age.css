@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif';
 }
 
 a {
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -60,24 +60,24 @@ section h2 {
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: black;
+  background-color: white;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
-  color: #8cfd0f;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  color: #49fb35;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #8cfd0f;
+  color: #49fb35;
 }
 
 #mainNav .navbar-toggler {
@@ -88,13 +88,13 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #8cfd0f !important;
+  color: #49fb35 !important;
   background-color: transparent;
 }
 
@@ -109,7 +109,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #8cfd0f;
+  color: #49fb35;
 }
 
 @media (min-width: 992px) {
@@ -133,7 +133,7 @@ section h2 {
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
-    background-color: black;
+    background-color: rgba(34, 34, 34, 0.8);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: white;
@@ -147,7 +147,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #8cfd0f;
+    color: #49fb35;
   }
 }
 
